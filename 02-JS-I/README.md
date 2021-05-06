@@ -257,7 +257,7 @@ logHola('Martin');
 Si agregamos una variable a los paréntesis cuando declaramos la función, podemos usar esta variable dentro de nuestra función. Iniciamos el valor de esta variable pasándola a la función cuando la llamamos. Entonces en este caso `nombre = 'Martin'`. También podemos pasar otras variables a esto:
 
 ```javascript
-function logHola(nombre) {
+function logHola(nombre) @œ
     console.log( `Hola, ${nombre}`);
 }
 
@@ -268,7 +268,7 @@ logHola(miNombre);
 Podemos agregar múltiples argumentos colocando una coma entre ellos:
 
 ```javascript
-function sumarDosNumeros(a, b) {
+function sumarDosNumeros(a, b) 
   var suma = a + b;
   return suma;
 }
